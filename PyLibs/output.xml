@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.7.4 on darwin)" generated="20220220 21:03:34.576" rpa="false" schemaversion="2">
+<suite id="s1" name="01 设备管理" source="/Users/fangdanhui/PycharmProjects/AutoTest/TEST/01_设备管理">
+<suite id="s1-s1" name="01 Master控制" source="/Users/fangdanhui/PycharmProjects/AutoTest/TEST/01_设备管理/01_master控制.robot">
+<test id="s1-s1-t1" name="1.1.1.1测试1加1等于0">
+<kw name="Test 测试1加1等于0" library="PyLibs">
+<status status="PASS" starttime="20220220 21:03:34.687" endtime="20220220 21:03:34.687"/>
+</kw>
+<tag>CI</tag>
+<status status="PASS" starttime="20220220 21:03:34.686" endtime="20220220 21:03:34.687"/>
+</test>
+<status status="PASS" starttime="20220220 21:03:34.683" endtime="20220220 21:03:34.688"/>
+</suite>
+<status status="PASS" starttime="20220220 21:03:34.579" endtime="20220220 21:03:34.689"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">CI</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="01 设备管理">01 设备管理</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="01 Master控制">01 设备管理.01 Master控制</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
